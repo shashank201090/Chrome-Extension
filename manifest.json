@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Shashank",
+  "description": "This extension performs what I order ",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "Settings_gears_24.icon",
+    "default_title": "Rapperstar"
+},
+"background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+}
+}
+
